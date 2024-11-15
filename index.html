@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+
+<body>
+    
+
+<section>
+
+    <div class="first-container">
+        <h1>Generate a <span class="highlight">Random Password</span></h1>
+        
+        <p class="Message">
+            Ensure your passwords are secure! <br>
+            Click on the passwords to copy!
+        </p>
+
+        <p id="length">Length :</p>
+        <input type="range" min="8" max="16" value="8" id="user-Input">
+        <br>
+        
+      
+        <button id="generate-btn" onclick="generate()">
+
+                Generate passwords
+        </button>
+        <hr style=" border: none; background-color: #273549; height: 1px;">
+    </div>
+
+    <div class="bottom-container">
+
+     
+        <div class="copy" id="password1" onclick="">...</div>
+
+        <div class="copy" id="password2" onclick="">...</div>
+
+        <div class="copy" id="password3" onclick="">...</div>
+
+        <div class="copy" id="password4" onclick="">...</div>
+    </div>
+</body>
+</section>
+</html>
